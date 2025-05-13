@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vietnam War Flashcards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .flashcard {
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .flashcard:hover {
+            background-color: #f0f8ff;
+        }
+        .answer {
+            display: none;
+            color: #333;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vietnam War Flashcards (Detailed)</h1>
+
+    <div class="flashcard" onclick="toggleAnswer('answer0')">
+        <strong>Who was Ho Chi Minh?</strong>
+        <div class="answer" id="answer0">He was the communist leader of North Vietnam. He wanted to unify Vietnam under a communist government and was a key figure in the fight against French, Japanese, and later American influence in Vietnam.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer1')">
+        <strong>Who were the Vietcong?</strong>
+        <div class="answer" id="answer1">The Vietcong were South Vietnamese communist rebels who used guerrilla tactics to fight against the South Vietnamese government and U.S. forces. They were supported by North Vietnam.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer2')">
+        <strong>Who were the Vietminh?</strong>
+        <div class="answer" id="answer2">The Vietminh were a national independence coalition led by Ho Chi Minh that fought against French colonial rule in Vietnam and later against Japanese occupation during World War II.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer3')">
+        <strong>Who was Robert McNamara?</strong>
+        <div class="answer" id="answer3">He was the U.S. Secretary of Defense during the Vietnam War under Presidents Kennedy and Johnson. He was a major architect of the U.S. involvement in Vietnam.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer4')">
+        <strong>What were Doves and Hawks?</strong>
+        <div class="answer" id="answer4">Doves were people who opposed the Vietnam War, believing it was morally wrong or unwinnable. Hawks supported the war, wanting to defeat communism through military force.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer5')">
+        <strong>Who was Walter Cronkite?</strong>
+        <div class="answer" id="answer5">A respected CBS news anchor who, after the Tet Offensive, publicly expressed doubt that the Vietnam War could be won, influencing public opinion.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer6')">
+        <strong>Who was Richard Nixon?</strong>
+        <div class="answer" id="answer6">He was the 37th President of the U.S. who introduced 'Vietnamization'—the process of withdrawing U.S. troops and handing over combat to South Vietnamese forces.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer7')">
+        <strong>Who was Lyndon B. Johnson?</strong>
+        <div class="answer" id="answer7">He was the 36th President of the U.S. who escalated U.S. involvement in the Vietnam War after the Gulf of Tonkin incident.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer8')">
+        <strong>What was the Ho Chi Minh Trail?</strong>
+        <div class="answer" id="answer8">A network of jungle paths and tunnels through Laos and Cambodia used by North Vietnam to transport troops and supplies to the Vietcong in South Vietnam.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer9')">
+        <strong>What happened in the Gulf of Tonkin?</strong>
+        <div class="answer" id="answer9">In 1964, U.S. ships were allegedly attacked by North Vietnamese forces. This led Congress to pass the Gulf of Tonkin Resolution, giving the president broad military powers.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer10')">
+        <strong>What happened in Saigon on April 30, 1975?</strong>
+        <div class="answer" id="answer10">North Vietnamese forces captured Saigon, marking the end of the Vietnam War. The city was later renamed Ho Chi Minh City.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer11')">
+        <strong>What was the 1963 Coup?</strong>
+        <div class="answer" id="answer11">A military coup in South Vietnam overthrew and assassinated President Ngo Dinh Diem, with tacit approval from the U.S., due to his unpopular leadership.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer12')">
+        <strong>What was the Tonkin Gulf Resolution?</strong>
+        <div class="answer" id="answer12">A 1964 congressional resolution that allowed President Johnson to use military force in Vietnam without an official declaration of war.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer13')">
+        <strong>What were the Geneva Accords?</strong>
+        <div class="answer" id="answer13">A 1954 agreement that temporarily divided Vietnam at the 17th parallel into North (communist) and South (non-communist) and called for elections to unify the country.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer14')">
+        <strong>What was the Tet Offensive?</strong>
+        <div class="answer" id="answer14">A surprise attack by North Vietnamese and Vietcong forces on South Vietnamese cities during the Vietnamese New Year. It was a military failure for the North but a psychological victory.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer15')">
+        <strong>What happened in the 1968 Election?</strong>
+        <div class="answer" id="answer15">Richard Nixon was elected president, promising 'peace with honor' and a plan to end the Vietnam War.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer16')">
+        <strong>What was the My Lai Massacre?</strong>
+        <div class="answer" id="answer16">A 1968 event where U.S. soldiers killed hundreds of unarmed Vietnamese civilians, mostly women and children, in the village of My Lai.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer17')">
+        <strong>What was the Kent State Massacre?</strong>
+        <div class="answer" id="answer17">In 1970, National Guard troops shot and killed four students during an anti-war protest at Kent State University in Ohio.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer18')">
+        <strong>What is the Domino Theory?</strong>
+        <div class="answer" id="answer18">The belief that if one country in a region fell to communism, neighboring countries would soon follow, like a row of dominoes.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer19')">
+        <strong>How is imperialism related to Vietnam?</strong>
+        <div class="answer" id="answer19">Vietnam was a French colony (part of French Indochina). Many Vietnamese resisted imperial rule, leading to the rise of independence movements.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer20')">
+        <strong>How did Americans feel about the war at the start and later?</strong>
+        <div class="answer" id="answer20">At first, many supported it to stop communism. As the war dragged on and casualties rose, public support declined sharply.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer21')">
+        <strong>What is Napalm?</strong>
+        <div class="answer" id="answer21">A flammable gel used in bombs by the U.S. that stuck to surfaces and caused severe burns. It was controversial due to its horrific effects on civilians.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer22')">
+        <strong>What is Agent Orange?</strong>
+        <div class="answer" id="answer22">A toxic herbicide used by the U.S. to destroy jungle cover. It caused long-term health problems, including cancer and birth defects.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer23')">
+        <strong>How was the morale of U.S. soldiers?</strong>
+        <div class="answer" id="answer23">Often poor, due to unclear goals, difficult jungle warfare, and growing public opposition at home.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer24')">
+        <strong>How did TV affect the war?</strong>
+        <div class="answer" id="answer24">Television showed graphic images of the war and protests, contributing to the American public's growing disapproval.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer25')">
+        <strong>What is the Credibility Gap?</strong>
+        <div class="answer" id="answer25">A term used to describe the public's distrust of the government due to conflicting information about the war's progress.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer26')">
+        <strong>How did the war affect the Great Society?</strong>
+        <div class="answer" id="answer26">Funding and attention shifted from domestic social programs to the war effort, weakening Lyndon Johnson’s anti-poverty initiatives.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer27')">
+        <strong>Who was drafted and how?</strong>
+        <div class="answer" id="answer27">Young American men, especially from working-class backgrounds, were selected by a lottery system to serve in the military.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer28')">
+        <strong>What is a conscientious objector?</strong>
+        <div class="answer" id="answer28">Someone who refuses military service due to moral or religious beliefs against war.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer29')">
+        <strong>Who opposed the war?</strong>
+        <div class="answer" id="answer29">Students, civil rights leaders, veterans, and religious groups protested against U.S. involvement in Vietnam.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer30')">
+        <strong>What did Martin Luther King Jr. think of the war?</strong>
+        <div class="answer" id="answer30">He opposed it, calling it unjust and harmful to the poor and the civil rights movement.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer31')">
+        <strong>What is Vietnamization?</strong>
+        <div class="answer" id="answer31">A policy introduced by Nixon to gradually withdraw U.S. troops and shift combat responsibility to South Vietnamese forces.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer32')">
+        <strong>Who were the Silent Majority?</strong>
+        <div class="answer" id="answer32">Americans who did not publicly protest but supported the government's war policies.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer33')">
+        <strong>What were the Pentagon Papers?</strong>
+        <div class="answer" id="answer33">Leaked secret documents showing the U.S. government had misled the public about the Vietnam War’s progress and decisions.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer34')">
+        <strong>What is the War Powers Act?</strong>
+        <div class="answer" id="answer34">A 1973 law requiring the president to get Congressional approval within 60 days of deploying military forces.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer35')">
+        <strong>What were the results of the Vietnam War?</strong>
+        <div class="answer" id="answer35">North Vietnam won, the country was unified under communism, and many Americans lost trust in their government.</div>
+    </div>
+    
+    <div class="flashcard" onclick="toggleAnswer('answer36')">
+        <strong>How many people died in the war?</strong>
+        <div class="answer" id="answer36">About 58,000 U.S. soldiers and over 2 million Vietnamese civilians and soldiers died.</div>
+    </div>
+    
+<script>
+    function toggleAnswer(id) {
+        var ans = document.getElementById(id);
+        if (ans.style.display === "none") {
+            ans.style.display = "block";
+        } else {
+            ans.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>
